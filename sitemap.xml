@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-	<url>
-		<loc>https://tali-mitchell.tilda.ws/</loc>
-		<lastmod>2026-05-28T16:50:43+00:00</lastmod>
-	</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Главная страница (Hero) -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Блок "Why Kids Love" -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/#why-kids-love</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Блок "Featured Activity Books" -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/#books</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Блок "About" -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/#about</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Блок "Gallery" -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/#gallery</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Блок "Perfect for Parents & Teachers" -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/#parents-teachers</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Блок "Contact" -->
+  <url>
+    <loc>https://tali-mitchell.tilda.ws/#contact</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Ссылки на страницы книг на Amazon (внешние) -->
+  <url>
+    <loc>https://www.amazon.com/stores/Tali-Mitchell/author/B0C2D9T4Q2</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.amazon.com/ANIMALS-TRACING-practice-workbook-coloring/dp/6259873735</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.amazon.com/Enchanting-Princesses-Magical-Coloring-Book/dp/6250071709</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.amazon.com/Animals-scissor-alphabet-workbook-practis/dp/6259873743</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.amazon.com/Underwater-coloring-book-pages-animals/dp/6057253280</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.amazon.com/Mandala-Animals-Coloring-Stress-Relief-Grown-Ups/dp/B0F38BG9GQ</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
