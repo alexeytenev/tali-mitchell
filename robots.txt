@@ -1,13 +1,42 @@
-User-Agent: *
-Disallow: /tilda/form*
-Disallow: /tilda/rec*
-Disallow: /tilda/click*
-Disallow: /tilda/scroll*
-Disallow: /tilda/popup*
-Disallow: /tilda/cart*
-Disallow: /tilda/product*
-Disallow: /tilda/event*
-Disallow:
+# robots.txt для сайта Tali Mitchell
+# https://tali-mitchell.tilda.ws
 
+User-agent: *
+Allow: /
 
+# Запрещаем индексацию служебных и системных страниц
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/uploads/
+Disallow: /*?*
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Запрещаем индексацию страниц с параметрами
+Disallow: /*?utm_*
+Disallow: /*?ref_*
+Disallow: /*?dib_*
+Disallow: /*?crid=*
+Disallow: /*?sprefix=*
+Disallow: /*?qid=*
+Disallow: /*?sr=*
+
+# Запрещаем индексацию изображений в системных папках
+Disallow: /images/tild*
+Disallow: /images/*__resizeb__*
+
+# Основные Sitemap
 Sitemap: https://tali-mitchell.tilda.ws/sitemap.xml
+
+# Указываем время сканирования
+Crawl-delay: 5
+
+# Указываем предпочтительный домен (без www)
+Host: https://tali-mitchell.tilda.ws
