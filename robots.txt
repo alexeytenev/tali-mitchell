@@ -1,5 +1,5 @@
 # robots.txt для сайта Tali Mitchell
-# https://tali-mitchell.tilda.ws
+# https://tali-mitchell.pages.dev
 
 User-agent: *
 Allow: /
@@ -33,10 +33,10 @@ Disallow: /images/tild*
 Disallow: /images/*__resizeb__*
 
 # Основные Sitemap
-Sitemap: https://tali-mitchell.tilda.ws/sitemap.xml
+Sitemap: https://tali-mitchell.pages.dev/sitemap.xml
 
 # Указываем время сканирования
 Crawl-delay: 5
 
-# Указываем предпочтительный домен (без www)
-Host: https://tali-mitchell.tilda.ws
+# Указываем предпочтительный домен
+Host: https://tali-mitchell.pages.dev
